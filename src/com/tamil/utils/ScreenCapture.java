@@ -1,4 +1,4 @@
-package com.tamil.apps;
+package com.tamil.utils;
 
 /**
  * User: Tamil
