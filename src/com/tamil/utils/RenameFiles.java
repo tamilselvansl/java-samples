@@ -5,18 +5,18 @@ import java.io.FilenameFilter;
 import java.io.IOException;
 
 /**
- * User: tteivase
- * Date: 10 Mar, 2013
- * Time: 1:11:49 PM
  *
- * Rename files and copy it to another folder aswell
+ * Author : Tamilselvan Teivasekamani
+ *
+ * Description : Rename files and copy it to another folder aswell
+ *
  */
 
 public class RenameFiles implements FilenameFilter {
     private int count = 0;
     private String fileNamePrefix = "Photo";
-    private String sourceFolderPath = "C:\\Downloads";
-    private String destFolderPath = "D:\\tamiltest\\";
+    private String sourceFolderPath = "C:\\Source_folder";
+    private String destFolderPath = "D:\\Renamed_Files_Folder\\";
 
     private String getDynaFileName() {
         count = count + 1;

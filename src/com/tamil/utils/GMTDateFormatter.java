@@ -6,7 +6,13 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 
 
-// Output : Wed, Jun 03 2015 18:15:17 GMT+05:30
+/**
+ *
+ * Author : Tamilselvan Teivasekamani
+ *
+ * Output : Wed, Jun 03 2015 18:15:17 GMT+05:30
+ *
+ */
 
 public class GMTDateFormatter {
 

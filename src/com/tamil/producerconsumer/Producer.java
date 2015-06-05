@@ -2,6 +2,14 @@ package com.tamil.producerconsumer;
 
 import java.util.List;
 
+/**
+ *
+ * Author : Tamilselvan Teivasekamani
+ *
+ * Description :
+ *
+ */
+
 public class Producer implements Runnable {
     private List<String> list;
     public Producer(List<String> pList) {

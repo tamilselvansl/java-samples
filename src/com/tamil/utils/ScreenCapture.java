@@ -1,13 +1,5 @@
 package com.tamil.utils;
 
-/**
- * User: Tamil
- * Date: Nov 14, 2011
- * Time: 6:38:41 PM
- * 
- *  Capture and store present view screen and store it as jpg file
- */
-
 import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.event.KeyEvent;
@@ -15,6 +7,14 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+
+/**
+ *
+ * Author : Tamilselvan Teivasekamani
+ *
+ * Description :
+ *
+ */
 
 public class ScreenCapture {
 
