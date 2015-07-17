@@ -8,7 +8,7 @@ public class PasswordCheck {
         if (passwd.matches(pattern)) {
             System.out.println("Password Matches");
         } else {
-            System.out.println("Password not matches, should contains a one digit, a lowercase, a upper case, one special char in @#$%^&+=, limit to 7 to 15 chars. ");
+            System.out.println("Password not matches, should contains a digit, a lowercase, a upper case, one special char from @#$%^&+= and limited to 7 to 15 chars.
         }
     }
 }
