@@ -3,7 +3,7 @@ package com.tamil.regex;
 public class PasswordCheck {
 
     public static void main(String[] args) {
-        String passwd = "TestMypass123$.";
+        String passwd = "TestMypass123$";
         String pattern = "(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=])(?=\\S+$).{7,15}";
         if (passwd.matches(pattern)) {
             System.out.println("Password Matches");
